@@ -10,6 +10,7 @@ import { RenderComponent } from './render/render.component';
 import { RightComponent } from './right/right.component';
 import { OrderStatusComponent } from './order-status/order-status.component';
 import { AddOrderComponent } from './add-order/add-order.component';
+import {FormsModule } from '@angular/forms';
 
 
 const firs =[
@@ -28,14 +29,16 @@ const firs =[
     RenderComponent,
     RightComponent,
     OrderStatusComponent,
-    AddOrderComponent
+    AddOrderComponent,
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule,
-    RouterModule.forRoot(firs)
+    RouterModule.forRoot(firs),
+    NgModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

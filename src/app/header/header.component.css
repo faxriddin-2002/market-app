@@ -2,11 +2,13 @@
     width: 400px;
     height: 600px;
     text-align: center;
-    align-items: center;
     display: grid;
     background-color: black;
     border-radius: 8px;
-    margin-left: 400px;
+    /* margin-left: 400px; */
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
 }
 
 #header {
@@ -19,12 +21,13 @@
     border-radius: 8px 8px 8px 8px;
     /* position: relative;
     top: -100px; */
-    margin-top: 2px;
+    margin-top: 10px;
 }
 
 #header ul {
     position: relative;
     right: 12px;
+    top: 15px;
 }
 
 #header ul li {
@@ -48,9 +51,9 @@
 
 #header-enter {
     width: 95%;
-    height: 170%;
+    height: 100%;
     margin: auto;
     background-color: white;
     position: relative;
-    bottom: 220px;
+    bottom: 15px;
 }

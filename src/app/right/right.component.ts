@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {FormControl} from '@angular/forms';
 
 @Component({
   selector: 'app-right',
@@ -10,6 +11,10 @@ export class RightComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onNameChange(event: FormControl){
+     
   }
 
 }
