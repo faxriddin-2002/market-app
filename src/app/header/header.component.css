@@ -1,0 +1,56 @@
+#phone {
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    background-color: black;
+    border-radius: 8px;
+    margin-left: 400px;
+}
+
+#header {
+    width: 380px;
+    height: 60px;
+    margin: auto;
+    background-color: white;
+    justify-content: top;
+    text-align: top;
+    border-radius: 8px 8px 8px 8px;
+    /* position: relative;
+    top: -100px; */
+    margin-top: 2px;
+}
+
+#header ul {
+    position: relative;
+    right: 12px;
+}
+
+#header ul li {
+    list-style-type: none;
+    justify-content: space-between;
+    display: inline;
+    padding: 10px;
+}
+
+#header ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#header ul li a:hover {
+    color: red;
+}
+
+#header-enter {
+    width: 95%;
+    height: 170%;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    bottom: 220px;
+}

@@ -1,0 +1,8 @@
+#appPhone {
+    width: 200px; 
+    height: 300px; 
+    border-radius: 15px;
+    align-items: center;
+    display: grid;
+    margin-top: 100px;
+}
